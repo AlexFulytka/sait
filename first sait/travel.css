@@ -1,0 +1,71 @@
+body {
+    background-image: url(berge.jpg);
+    
+}
+.dws-menu{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 50px;
+}
+.dws-menu >ul{
+    display: flex;
+    justify-content: center;
+}
+.dws-menu >ul div a{
+    display: block;
+    background: #274150;
+    padding: 25px 35px 25px 35px;
+    font-size: 20px;
+    color: azure;
+    text-decoration: none;
+    font-family: 'Alice', serif;
+
+}
+.dws-menu > ul div{
+    position: relative;
+    border-right: 1px solid gray;
+}
+.dws-menu > ul div > a i.fa{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 20px;
+}
+.dws-menu div a:hover{
+    background: #d2e5f0;
+    color: #191f22;
+    
+}
+.dws-menu div ul{
+    position: absolute;
+    min-width: 150px;
+    display: none;
+
+}
+.dws-menu ul > div ul{
+    border: 1px solid gray;
+}
+.dws-menu div:hover>ul{
+    display: block;
+}
+.cont{
+    position: relative;
+    margin: 60px 0px 10px 70px;
+
+}
+.muk{width: 400px;
+    border:3px solid #274150;
+    font-family: 'Pattaya', sans-serif;
+    color: #d2e5f0;
+    background-color: #2741507e;
+}
+ .img{
+    position: absolute;
+    padding: 50px;
+    margin: 50px;
+    top: -108px;
+    left: 385px;
+ }
+ 

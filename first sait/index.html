@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="Utf-8">
+        <title>Travel</title>
+        <style>
+            
+            body {
+                background-image: url(berge.jpg);
+                
+            }
+            .dws-menu{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                margin-top: 50px;
+            }
+            .dws-menu >ul{
+                display: flex;
+                justify-content: center;
+            }
+            .dws-menu >ul div a{
+                display: block;
+                background: #274150;
+                padding: 25px 35px 25px 35px;
+                font-size: 20px;
+                color: azure;
+                text-decoration: none;
+                font-family: 'Alice', serif;
+
+            }
+            .dws-menu > ul div{
+                position: relative;
+                border-right: 1px solid gray;
+            }
+            .dws-menu > ul div > a i.fa{
+                position: absolute;
+                top: 15px;
+                left: 10px;
+                font-size: 20px;
+            }
+            .dws-menu div a:hover{
+                background: #d2e5f0;
+                color: #191f22;
+                
+            }
+            .dws-menu div ul{
+                position: absolute;
+                min-width: 150px;
+                display: none;
+        
+            }
+            .dws-menu ul > div ul{
+                border: 1px solid gray;
+            }
+            .dws-menu div:hover>ul{
+                display: block;
+            }
+        </style>
+        
+        <link href="https://fonts.googleapis.com/css?family=Alice" rel="stylesheet"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    </head>
+    <body>
+     <header>
+         <span class="dws-menu">
+             <ul>
+                <div><a href="index.html"><i class="fas fa-home">Головна</i></a></div>
+                <div><a href="travel.html"><i class="fab fa-phoenix-squadron">Подорожі</i></a>
+                    <ul>
+                        <div><a href="travel.html">Мукачево</a></div>
+                        <div><a href="travel.html">Львів</a></div>
+                    </ul>
+                </div>
+                <div><a href="we are....html"><i class="fab fa-pied-piper-alt">Про нас</i></a></div>
+                <div><a href="links.html"><i class="fab fa-firefox">Контакти</i></a></div>
+                </ul>
+         </span>
+     </header>
+    </body>
+</html>
